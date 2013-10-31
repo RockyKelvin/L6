@@ -35,6 +35,10 @@ public class Antenna extends javax.swing.JFrame {
     /** Creates new form Antenna */
     public Antenna() {
         initComponents();
+        
+        
+        
+        
     }
     
     /** This method is called from within the constructor to
@@ -299,6 +303,10 @@ public class Antenna extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Antenna().setVisible(true);
+                
+                
+                
+                System.out.println("Added new line");
             }
         });
     }

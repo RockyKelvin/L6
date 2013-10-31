@@ -305,7 +305,7 @@ public class Antenna extends javax.swing.JFrame {
                 new Antenna().setVisible(true);
                 
                 
-                
+                System.out.println("test,test");
                 System.out.println("Added new line");
             }
         });
